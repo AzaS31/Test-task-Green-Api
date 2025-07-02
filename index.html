@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREEN-API test task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form-section">
+            <div>
+                <label for="idInstance">idInstance</label>
+                <input type="text" id="idInstance" placeholder="11012346">
+                <label for="ApiTokenInstance">ApiTokenInstance</label>
+                <input type="text" id="apiToken" placeholder="456464djkfl">
+                <button class="settings-btn">getSettings</button>
+                <button class="state-btn">getStateInstance</button>
+            </div>
+
+            <div>
+                <label for="chatId">Phone (chat)</label>
+                <input type="text" id="chatIdMessage" placeholder="77001234567">
+                <select id="suffixMessage">
+                    <option value="@c.us">@c.us</option>
+                    <option value="@g.us">@g.us</option>
+                </select>
+                <label for="message">Message</label>
+                <input type="text" id="message" placeholder="Hello, from GREEN-API">
+                <button class="sendMessage-btn">sendMessage</button>
+            </div>
+
+            <div>
+                <label for="chatId">Phone (chat)</label>
+                <input type="text" id="chatIdFile" placeholder="77001234567">
+                <select id="suffixFile">
+                    <option value="@c.us">@c.us</option>
+                    <option value="@g.us">@g.us</option>
+                </select>
+                <label for="fileName">File Name</label>
+                <input type="text" id="fileName" placeholder="file name">
+                <label for="fileUrl">File URL</label>
+                <input type="text" id="fileUrl" placeholder="https://example.com/image.jpg">
+                <button class="sendFile-btn">sendFileByUrl</button>
+            </div>
+        </div>
+
+        <div class="response-section">
+            <div class="Api-Response">
+                <label for="response">Api Response</label>
+                <textarea id="response"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
