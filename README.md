@@ -1,44 +1,44 @@
 # Green-API WhatsApp Web Client
 
-Простая веб-страница для взаимодействия с [Green-API](https://green-api.com), реализованная на чистом JavaScript (Vanilla JS).
+A simple web page for interacting with [Green-API](https://green-api.com), built using pure JavaScript (Vanilla JS).
 
-## 📌 Функциональность
+## 📌 Features
 
-- Получение настроек (`getSettings`)
-- Получение состояния инстанса (`getStateInstance`)
-- Отправка текстового сообщения в WhatsApp (`sendMessage`)
-- Отправка файла по URL в WhatsApp (`sendFileByUrl`)
+- Get instance settings (`getSettings`)
+- Get instance state (`getStateInstance`)
+- Send a text message via WhatsApp (`sendMessage`)
+- Send a file by URL via WhatsApp (`sendFileByUrl`)
 
-## 🚀 Как использовать
+## 🚀 How to Use
 
-1. Получите `idInstance` и `apiTokenInstance` в личном кабинете [Green-API](https://console.green-api.com).
-2. Введите их в соответствующие поля.
-3. Выберите нужное действие:
+1. Get your `idInstance` and `apiTokenInstance` from your [Green-API console](https://console.green-api.com).
+2. Enter them in the corresponding input fields.
+3. Choose the desired action:
    - `getSettings`
    - `getStateInstance`
    - `sendMessage`
    - `sendFileByUrl`
 
-> Для `chatId` можно указать только номер телефона (например, `77001234567`), а суффикс (`@c.us` или `@g.us`) выбрать из выпадающего списка.
+> For `chatId`, you only need to enter the phone number (e.g., `77001234567`). Then select the suffix (`@c.us` or `@g.us`) from the dropdown menu.
 
-## 🛠️ Стек технологий
+## 🛠️ Tech Stack
 
 - HTML
 - CSS
 - JavaScript (Vanilla JS)
 - Fetch API
 
-## 🖼️ Интерфейс
+## 🖼️ Interface
 
-Интерфейс разделён на 2 части:
-- Слева — форма ввода и кнопки действий
-- Справа — большое `textarea` для отображения ответа API
+The interface is divided into two parts:
+- Left: form inputs and action buttons
+- Right: a large `textarea` displaying the API response
 
-## 📦 Размещение
+## 📦 Deployment
 
-Готовый проект размещён по адресу:  
+Live demo available at:  
 👉 https://test-task-green-api.vercel.app/
 
-## 📄 Лицензия
+## 📄 License
 
-Проект создан в рамках тестового задания и предназначен для демонстрации навыков.
+This project was created as part of a test assignment and is intended for demonstration purposes only.
